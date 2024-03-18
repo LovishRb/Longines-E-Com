@@ -1,0 +1,40 @@
+.background-img {
+  max-width: 85%;
+  aspect-ratio: 3 / 2;
+  position: absolute;
+  top: 0px;
+  border-bottom-left-radius: 1000px;
+  border-bottom-right-radius: 1000px;
+  z-index: -1;
+  opacity: 90%;
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+}
+.overview {
+  max-width: 85%;
+  margin: auto;
+  position: relative;
+  min-height: 90vh;
+}
+.overview-elements {
+  position: absolute;
+  left: 5vw;
+  bottom: 0px;
+}
+.overview-elements h1 {
+  position: relative;
+  z-index: -2;
+  font-size: 3rem;
+}
+.discover {
+  padding: 15px;
+  background-color: #003150;
+  border-radius: 25px;
+  color: white;
+}
+.discover:hover {
+  background-color: white;
+  color: #003150;
+}
