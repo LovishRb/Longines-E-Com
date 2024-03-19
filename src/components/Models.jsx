@@ -1,7 +1,7 @@
 import React from "react";
-import "./Gender.css";
+import "./Models.css";
 
-function Gender() {
+function Models() {
   return (
     <div className="gender">
       <div className="img1-container">
@@ -28,4 +28,4 @@ function Gender() {
   );
 }
 
-export default Gender;
+export default Models;

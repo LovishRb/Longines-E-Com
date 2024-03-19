@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Overview from "./components/Overview";
 import Novelties from "./components/Novelties";
-import Gender from "./components/Gender";
+import Models from "./components/Models";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
             element={
               <>
                 <Overview /> <Novelties />
-                <Gender />
+                <Models />
               </>
             }
           />
