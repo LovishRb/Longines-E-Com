@@ -11,18 +11,18 @@ function Models() {
             alt=""
           />
         </div>
-        <h2>Mens</h2>
-        <h2>Watches</h2>
+        <h2 className="models-heading">Men</h2>
+        <h2 className="models-body">Watches</h2>
       </div>
-      <div className="img1-container">
+      <div className="img2-container">
         <div className="img2">
           <img
             src="https://cms.longines.com/uploads/media/text-with-media/09/1189-Block_Woman_JL_1.jpg?v=2-0&w=1080"
             alt=""
           />
         </div>
-        <h2>Womens</h2>
-        <h2>Watches</h2>
+        <h2 className="models-heading">Women</h2>
+        <h2 className="models-body">Watches</h2>
       </div>
     </div>
   );

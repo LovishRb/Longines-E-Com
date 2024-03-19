@@ -1,0 +1,19 @@
+.news-header {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 90%;
+}
+.news hr {
+  width: 90%;
+}
+.Scroller {
+  padding-left: 100px;
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+}
+.news-item {
+  flex-direction: row;
+  display: flex;
+}

@@ -4,6 +4,8 @@ import Navbar from "./components/Navbar";
 import Overview from "./components/Overview";
 import Novelties from "./components/Novelties";
 import Models from "./components/Models";
+import News from "./components/News";
+import AboutUs from "./components/AboutUs";
 
 function App() {
   return (
@@ -16,7 +18,8 @@ function App() {
             element={
               <>
                 <Overview /> <Novelties />
-                <Models />
+                <Models /> <News />
+                <AboutUs />
               </>
             }
           />

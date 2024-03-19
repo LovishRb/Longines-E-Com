@@ -1,0 +1,10 @@
+.about {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: rows;
+  justify-content: space-evenly;
+}
+.about-items {
+  display: flex;
+  flex-direction: column;
+}
